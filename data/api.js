@@ -12,5 +12,5 @@ export function getUser() {
     if (!storedUser) return null;
     const user = JSON.parse(storedUser);
     return user;
-    console.log(user);
+    // console.log(user);
 }
