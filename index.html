@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Outback Walkabout Adventure</title>
+</head>
+
+<body>
+    <img src="assets/outback-logo.jpeg" alt="Outback logo">
+    <header>
+        <h1>G'day Mate, Welcome to the Outback!</h1>
+    </header>
+
+    <main>
+        <h2>
+            Start your walkabout, but beware!
+        </h2>
+
+        <form id="user-sign-in">
+            <p>
+                <label for="name">Your Aussie Name:</label>
+                <input id="name" name ="name" required>
+            </p>
+
+            <fieldset>
+                <legend>Pick Your Character:</legend>
+                <p id="character">
+                    <label>
+                        <input type="radio" name="character" required value="farmer">
+                        Farmer
+                    </label>
+                    <label>
+                        <input type="radio" name="character" required value="explorer">
+                        Explorer
+                    </label>
+                    <label>
+                        <input type="radio" name="character" required value="farmer">
+                        Medicine Person
+                    </label>
+                </p>
+            </fieldset>
+            <button>Begin your Walkabout</button>
+        </form>
+
+    </main>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
